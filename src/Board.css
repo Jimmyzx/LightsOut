@@ -1,33 +1,48 @@
+.BoardContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.YouWonMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  color: olive;
+}
+
 .Board {
   margin: 0 auto;
   background-color: black;
 }
 
 .Instructions {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px; 
-  color: white; 
-  text-align: center; 
-  background-color: olivedrab; 
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  background-color: olivedrab;
+  padding: 10px;
 }
 
 .NewGameButton {
   position: absolute;
-  bottom: 85px; 
-  right: 30px; 
-  background-color:darkgreen; 
-  color: white; 
-  border: none; 
-  padding: 10px; 
-  cursor: pointer; 
-  font-size: 16px; 
+  bottom: 85px;
+  right: 30px;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .NewGameButton:hover {
-  background-color: greenyellow; 
-  color:black
+  background-color: greenyellow;
+  color: black;
 }
