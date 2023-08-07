@@ -1,0 +1,33 @@
+.Board {
+  margin: 0 auto;
+  background-color: black;
+}
+
+.Instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px; 
+  color: white; 
+  text-align: center; 
+  background-color: olivedrab; 
+}
+
+.NewGameButton {
+  position: absolute;
+  bottom: 85px; 
+  right: 30px; 
+  background-color:darkgreen; 
+  color: white; 
+  border: none; 
+  padding: 10px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  font-weight: bold;
+}
+
+.NewGameButton:hover {
+  background-color: greenyellow; 
+  color:black
+}
