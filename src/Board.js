@@ -18,7 +18,7 @@ function createBoard(nrows, ncols, chanceLightStartsOn) {
 function Board({
   nrows = 5,
   ncols = 5,
-  chanceLightStartsOn = 0.20,
+  chanceLightStartsOn = 0.50,
 }) {
   const [board, setBoard] = useState(createBoard(nrows, ncols, chanceLightStartsOn));
   const [showConfetti, setShowConfetti] = useState(false);
